@@ -28,6 +28,7 @@ SECRET_KEY = 'django-insecure-z8qff_9=z!l60k7g5zc4x5_vo#ww7jddk#w6lmin%r%r(apreu
 DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
+CSRF_TRUSTED_ORIGINS = ['https://gym-management-system-necq.onrender.com', 'https://*.127.0.0.1']
 
 
 # Application definition

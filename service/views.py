@@ -7,3 +7,6 @@ from . import serializers
 class ServiceViewset(viewsets.ModelViewSet):
     queryset = models.Service.objects.all()
     serializer_class = serializers.ServiceSerializer
+class AvailableTimeViewset(viewsets.ModelViewSet):
+    queryset = models.AvailableTime.objects.all()
+    serializer_class = serializers.availableTimeSerializer
